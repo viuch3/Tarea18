@@ -4,7 +4,7 @@ Proyecto de EAN TechRetail Solutions. Pipeline ETL en Python que extrae datos
 de ventas desde CSV, los limpia y transforma, genera archivos optimizados para
 análisis, visualizaciones y un reporte ejecutivo.
 
-**Integrantes:** (nombres del equipo)
+**Integrantes:** Juan Felipe Viuche, Jorge Piñeros, Juan Avila, Diego Bustos
 
 ## Requisitos
 - Python 3.8 o superior
