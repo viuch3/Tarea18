@@ -1,0 +1,54 @@
+============================================================
+REPORTE EJECUTIVO - SUPERMART COLOMBIA
+Elaborado por: EAN TechRetail Solutions
+Generado: 2026-10-19 17:25
+Periodo analizado: 2024-03-15 a 2024-03-26
+============================================================
+
+1. METRICAS PRINCIPALES
+  Ventas totales:       $758.50
+  Transacciones:        15
+  Ticket promedio:      $50.57
+  Unidades vendidas:    33
+  Clientes identificados: 10
+
+2. TOP PERFORMERS
+  Ciudad lider:    Bogotá ($240.00, 31.6% del total)
+  Categoria lider: Electrónicos ($288.50, 38.0% del total)
+  Dia con mas transacciones: Viernes (3)
+
+  Ventas por ciudad:
+    - Bogotá: $240.00
+    - Cali: $210.00
+    - Medellín: $125.50
+    - Barranquilla: $122.00
+    - Cartagena: $61.00
+
+  Ventas por categoria:
+    - Electrónicos: $288.50
+    - Ropa: $270.00
+    - Alimentos: $100.00
+    - Hogar: $100.00
+
+  Segmentacion por monto de venta:
+    - Media: 7 transacciones
+    - Alta: 7 transacciones
+    - Baja: 1 transacciones
+
+3. INDICADORES DE CALIDAD DE DATOS
+  productos_sin_match: 0
+  tiendas_sin_match: 0
+  cantidades_no_positivas: 0
+  precios_no_positivos: 0
+  fechas_futuras: 0
+  total_registros: 15
+  clientes_desconocidos: 2
+  % de ventas sin cliente identificado: 13.3%
+
+4. INSIGHTS ACCIONABLES
+  - Bogotá concentra 31.6% de las ventas: reforzar inventario allí y replicar sus practicas en las ciudades de menor desempeño (Cartagena es la mas baja).
+  - Electrónicos aporta 38.0% de los ingresos: priorizar promociones y disponibilidad de esta categoria.
+  - 13.3% de las ventas no tiene cliente asociado: implementar captura obligatoria del ID (programa de fidelizacion) para poder analizar recompra.
+  - El dia Viernes es el de mayor trafico: concentrar personal y campañas ese dia.
+
+Nota: el analisis se basa en una muestra pequeña de datos; conviene validar las conclusiones con un volumen mayor.

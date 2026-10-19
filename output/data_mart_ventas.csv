@@ -1,0 +1,12 @@
+﻿anio,mes,ciudad,region,categoria,ventas_totales,transacciones,unidades_vendidas,ticket_promedio
+2024,3,Barranquilla,Atlántico,Electrónicos,122.0,2,6,61.0
+2024,3,Bogotá,Cundinamarca,Alimentos,80.0,2,8,40.0
+2024,3,Bogotá,Cundinamarca,Electrónicos,90.0,1,3,90.0
+2024,3,Bogotá,Cundinamarca,Hogar,25.0,1,1,25.0
+2024,3,Bogotá,Cundinamarca,Ropa,45.0,1,1,45.0
+2024,3,Cali,Valle,Hogar,75.0,2,3,37.5
+2024,3,Cali,Valle,Ropa,135.0,1,3,135.0
+2024,3,Cartagena,Bolívar,Electrónicos,61.0,2,3,30.5
+2024,3,Medellín,Antioquia,Alimentos,20.0,1,2,20.0
+2024,3,Medellín,Antioquia,Electrónicos,15.5,1,1,15.5
+2024,3,Medellín,Antioquia,Ropa,90.0,1,2,90.0

@@ -1,0 +1,44 @@
+from pathlib import Path
+
+Path("data").mkdir(exist_ok=True)
+
+ventas = """order_id,fecha,producto_id,cantidad,precio_unitario,cliente_id,tienda_id
+1001,2024-03-15,P123,2,15.50,C001,T005
+1002,2024-03-15,P456,1,25.00,C002,T003
+1003,2024/03/16,P789,3,10.00,,T001
+1004,2024-03-16,P123,1,15.50,C003,T002
+1005,2024-03-17,P999,2,30.00,C004,T004
+1006,2024-03-17,P321,1,45.00,C005,T001
+1007,2024-03-18,P456,2,25.00,C001,T003
+1008,2024-03-19,P321,2,45.00,C006,T002
+1009,2024/03/20,P789,5,10.00,C007,T001
+1010,2024-03-21,P999,1,30.00,C002,T005
+1011,2024-03-22,P123,4,15.50,,T004
+1012,2024-03-23,P456,1,25.00,C008,T001
+1013,2024-03-24,P321,3,45.00,C003,T003
+1014,2024-03-25,P789,2,10.00,C009,T002
+1015,2024-03-26,P999,3,30.00,C010,T001
+"""
+
+productos = """producto_id,categoria,subcategoria,marca
+P123,Electrónicos,Smartphones,Samsung
+P456,Hogar,Electrodomésticos,LG
+P789,Alimentos,Bebidas,Coca-Cola
+P321,Ropa,Calzado,Nike
+P999,Electrónicos,Tablets,Apple
+"""
+
+tiendas = """tienda_id,ciudad,region,area_m2,gerente
+T001,Bogotá,Cundinamarca,500,María González
+T002,Medellín,Antioquia,450,Carlos Rodríguez
+T003,Cali,Valle,400,Ana Martínez
+T004,Barranquilla,Atlántico,350,Pedro López
+T005,Cartagena,Bolívar,300,Laura Ramírez
+"""
+
+for nombre, contenido in [("ventas_crudas.csv", ventas),
+                          ("productos.csv", productos),
+                          ("tiendas.csv", tiendas)]:
+    with open(f"data/{nombre}", "w", encoding="utf-8") as f:
+        f.write(contenido)
+    print(f"Creado: data/{nombre}")
